@@ -1,0 +1,15 @@
+.logo{
+  width: 250px;
+}
+
+.home {
+  text-align: center;
+}
+
+.actions {
+  padding: 50px;
+}
+
+.actions button {
+  cursor: pointer;
+}

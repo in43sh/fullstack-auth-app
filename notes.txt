@@ -21,6 +21,7 @@ cors
 browserrouter vs hashrouter
 props used more
 proxy
+combineReducers
 
 routes
 client side
@@ -36,9 +37,8 @@ middleware
   check authorized
 
 components
-* Home / Login
+* Home
 * AccountInfo
-* logout
 * Button
 * List?
 
@@ -57,7 +57,7 @@ schema (database shape)
 
 stretch goals
 * deposit
-
+* debit
 * hashrouter
 
 steps
@@ -68,3 +68,13 @@ steps
 
 when do we use { Switch }
 when many routes
+
+steps for redux
+1) create store
+2) reducer
+  -initial state
+  -action name
+  -action creator
+  -reducer
+3) call the function
+4) dispatch
