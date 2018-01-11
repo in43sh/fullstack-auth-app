@@ -20,6 +20,7 @@ Let's talk about
 cors
 browserrouter vs hashrouter
 props used more
+proxy
 
 routes
 client side
@@ -56,3 +57,14 @@ schema (database shape)
 
 stretch goals
 * deposit
+
+* hashrouter
+
+steps
+1) start with router 
+-index.js (hashrouter)
+-App.js
+-it's a small app, so we don't need routes.js
+
+when do we use { Switch }
+when many routes
